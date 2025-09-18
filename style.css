@@ -380,3 +380,113 @@ body.about-page {
 .projects-container {
     gap: 32px;
 }
+
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column;
+        max-width: 98%;
+        padding: 20px 5px;
+        margin: 40px auto;
+        align-items: center;
+    }
+
+    .about-text, .hero-image {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-text h2 span {
+        font-size: 1.2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .hero-image img {
+        max-width: 220px;
+        margin: 20px 0 0 0;
+    }
+
+    .content, .projects {
+        width: 98%;
+        padding: 16px 4px;
+        margin: 20px auto;
+    }
+
+    .home-h2 {
+        font-size: 2.2rem;
+        padding: 0.3em 0;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 18px;
+    }
+
+    .projects-card {
+        min-height: unset;
+        font-size: 1rem;
+        border-radius: 12px;
+    }
+
+
+    .projects-card h3, .projects-card p {
+        padding: 0 12px;
+    }
+
+    .projects-card h3 {
+        font-size: 1.1rem;
+        margin: 16px 0 8px;
+    }
+
+    .projects-card p {
+        font-size: 0.95rem;
+        margin-bottom: 16px;
+    }
+
+    .projects {
+        padding: 16px 0;
+    }
+
+    .social-icons a {
+        width: 38px;
+        height: 38px;
+        font-size: 22px;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .navbar li {
+        margin: 4px 0;
+    }
+
+    .navbar a {
+        padding: 10px 0;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .home-bg {
+        min-height: 320px;
+        padding: 60px 0 60px 0;
+    }
+}
